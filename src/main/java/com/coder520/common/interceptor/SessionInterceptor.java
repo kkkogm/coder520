@@ -13,6 +13,8 @@ import javax.servlet.http.HttpSession;
 /**
  * Created by JackWangon[www.aiprogram.top] 2017/6/18.
  */
+
+
 public class SessionInterceptor implements HandlerInterceptor{
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object o) throws Exception {String uri = request.getRequestURI();
